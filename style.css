@@ -1,0 +1,201 @@
+
+body{
+
+    background-color: white;
+    color: #000000;
+}
+
+
+
+nav a,button{
+    min-width: 48px;
+    min-height: 48px;
+   color: #ffffff;
+   
+    }
+  
+  
+  
+.k{
+    background-color: #030588;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 80px;
+    width: 200px;
+    border: #000000;
+    border-radius: 24px;
+    text-align: center;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: none;
+ ;
+}
+
+
+
+
+
+    img,embed,object,video{
+      max-width: 100%;
+      
+      }
+  
+  
+  
+  
+  
+
+  article{
+      background-color: #d7ee0d;
+      margin: 5; /* Remova margens para cobrir toda a janela */
+      padding: 5; /* Remova o preenchimento para cobrir toda a janela*/
+      border: #000000;
+      border-radius: 24px;
+  }
+  
+  
+  
+  footer{
+  
+      background-color: #15c20f;
+      margin: 5; /* Remova margens para cobrir toda a janela */
+      padding: 5;
+  }
+  
+  
+  figure{
+  
+  text-align: center;
+  border-radius: 10px;
+  border: outset rgb(0, 0, 0);
+  }
+  
+  nav{
+      background-color: #e985cb;
+      margin: 5; /* Remova margens para cobrir toda a janela */
+      padding: 5;
+  }
+  
+  
+  header{
+      background-color: #d7ee0d;
+      margin: 5; /* Remova margens para cobrir toda a janela */
+      padding: 5;
+      border: #000000;
+      border-radius: 24px;
+  }
+      
+  
+  
+  aside{
+  flex-direction: column-reverse;
+      background-color: #15c20f;
+      margin: 5; /* Remova margens para cobrir toda a janela */
+      padding: 5;
+      border: #000000;
+      border-radius: 24px;
+      
+  }
+  
+  section{
+      background-color: #15c20f;
+      margin: 5; /* Remova margens para cobrir toda a janela */
+      padding: 5;
+      border: #000000;
+      border-radius: 24px;
+  }
+  
+  
+  
+  
+  
+  
+
+  /* css para mobile*/
+
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(0, 0, 0);
+  color: white;
+  
+  
+  
+    }
+
+
+ 
+    .k{
+        background-color: #2a0761;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 80px;
+        width: 200px;
+        border: #000000;
+        border-radius: 24px;
+        text-align: center;
+       display: flex;
+      justify-content: center;
+      align-items: center;
+      border-bottom: none;
+     ;
+    }
+    
+    section{
+        background-color: #ffffff;;
+        margin: 5; /* Remova margens para cobrir toda a janela */
+        padding: 5;
+        color: #000000;
+    }
+
+    
+  header{
+    background-color: #1475a1;
+    margin: 5; /* Remova margens para cobrir toda a janela */
+    padding: 5;
+    border: #000000;
+    border-radius: 24px;
+}
+
+
+article{
+    background-color: #2a0761;
+    color: #ece4e4;
+    margin: 5; /* Remova margens para cobrir toda a janela */
+    padding: 5; /* Remova o preenchimento para cobrir toda a janela*/
+    border: #000000;
+    border-radius: 24px;
+}
+
+aside{
+    flex-direction: column-reverse;
+        background-color: #1475a1;
+        margin: 5; /* Remova margens para cobrir toda a janela */
+        padding: 5;
+        border: #000000;
+        border-radius: 24px;
+        
+    }
+
+    
+  
+  footer{
+  
+    background-color: #1475a1;
+    margin: 5; /* Remova margens para cobrir toda a janela */
+    padding: 5;
+}
+
+img,embed,object,video{
+    max-width: 100%;
+    
+    }
+
+
+    figure{
+  
+        text-align: center;
+        border-radius: 10px;
+        border: outset rgb(255, 255, 255);
+        }
+  }
